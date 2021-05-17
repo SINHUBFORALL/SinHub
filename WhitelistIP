@@ -1,1 +1,11 @@
+local currentip = tostring(game:HttpGet("https://api.ipify.org",true))
 
+local IP = {
+    ["113.53.57.163"] = true,
+}
+
+if IP[currentip] == true then
+    return true
+else
+    return false
+end
