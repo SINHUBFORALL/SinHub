@@ -1,4 +1,4 @@
-if _G.Key == "5wWF5v6w4Dv8e6c" then
+if _G.Key == "5wWF5v6w4Dv8e6dc" then
 return true
 else
 return false
